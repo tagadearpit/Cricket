@@ -3,35 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Premier League 2026</title>
+    <title>Indian Premier League 2026 | Cricket Hub</title>
+    <meta name="description" content="Latest news, schedules, and insights on the Indian Premier League (IPL) 2026 season.">
+    <style>
+        :root {
+            --primary-color: #0d233a;
+            --accent-color: #f39c12;
+            --text-color: #2c3e50;
+            --bg-light: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-radius: 10px;
+        }
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-light);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            letter-spacing: 1px;
+        }
+        nav {
+            background-color: #1a365d;
+            padding: 0.75rem 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover, nav a.active {
+            background-color: var(--accent-color);
+            color: #0d233a;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .hero-image {
+            width: 100%;
+            max-height: 450px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            margin-bottom: 2rem;
+            display: block;
+        }
+        section {
+            background: var(--card-bg);
+            padding: 1.8rem;
+            border-radius: var(--border-radius);
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 0.4rem;
+            display: inline-block;
+            margin-top: 0;
+        }
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #e2e8f0;
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-align: left;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 1rem;
+            background-color: var(--primary-color);
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .card a:hover {
+            background-color: var(--accent-color);
+            color: #0d233a;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--primary-color);
+            color: #e2e8f0;
+            margin-top: 3rem;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center;">
-        <h1><i>IPL 2026</i></h1>
-        <hr>
-        <img src="IPL.jpg" alt="Indian Premier League 2026" width="800" height="400" title="IPL 2026">
-        <hr>
-    </div>
 
-    <h2><i>About IPL 2026</i></h2>
-    <p>
-        The Indian Premier League (IPL) 2026, currently in its 19th season, kicked off on March 28 with a high-stakes opener between the defending champions, Royal Challengers Bengaluru, and Sunrisers Hyderabad. The tournament is being held across 74 matches and is scheduled to conclude with the grand final on May 31, 2026. This season is particularly unique as the Board of Control for Cricket in India (BCCI) released the schedule in two phases to accommodate the assembly elections occurring across several states. Today, April 12, features a double-header with Lucknow Super Giants facing the Gujarat Titans in the afternoon, followed by a marquee clash between Mumbai Indians and Royal Challengers Bengaluru at the Wankhede Stadium. With major player trades—like Sanju Samson moving to Chennai Super Kings and Ravindra Jadeja joining Rajasthan Royals—the competition is at an all-time high as teams battle for a spot in the playoffs.
-    </p>
-    <hr>
+    <header>
+        <h1>Indian Premier League 2026</h1>
+    </header>
 
-    <h2><i>Establishment of IPL</i></h2>
-    <p>
-        The Indian Premier League (IPL) was established by the BCCI in 2007, with its inaugural season taking place in 2008. It revolutionized the game by blending world-class cricket with high-energy entertainment, starting with a historic century by Brendon McCullum in the very first match. Over the years, the league has grown from its original eight teams to a ten-team format, seeing the rise of legendary dynasties like the Mumbai Indians and Chennai Super Kings. From its humble beginnings to becoming the second most valuable sports league in the world by 2026, the IPL has consistently introduced innovations like the Decision Review System (DRS), the Impact Player rule, and the latest Powerplay Sub. Today, it remains the ultimate platform where young Indian talent gets to play alongside global superstars, making it a true festival of cricket in India.
-    </p>
-    <hr>
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="Indian woman cricket.html">Women's Cricket</a>
+        <a href="Nagpur’s VCA Stadium.html">VCA Stadium</a>
+        <a href="Record Broken.html">Fastest Fifty</a>
+    </nav>
 
-    <div style="text-align: center;">
-        <h2 style="text-align: left;"><i>More about cricket matches</i></h2>
-        <p>
-            <a href="Indian woman cricket.html" target="_blank">Indian Women Cricket</a><br><br>
-            <a href="Nagpur’s VCA Stadium.html" target="_blank">Nagpur VCA Stadium</a><br><br>
-            <a href="Record Broken.html" target="_blank">Record Broken: Fastest Fifty of the Season</a>
-        </p>
-    </div>
+    <main class="container">
+        <img src="IPL.jpg" alt="Indian Premier League 2026 official coverage" class="hero-image" title="IPL 2026">
+
+        <section>
+            <h2>About IPL 2026</h2>
+            <p>
+                The Indian Premier League (IPL) 2026, currently in its 19th season, kicked off on March 28 with a high-stakes opener between the defending champions, Royal Challengers Bengaluru, and Sunrisers Hyderabad. The tournament is being held across 74 matches and is scheduled to conclude with the grand final on May 31, 2026. This season is particularly unique as the Board of Control for Cricket in India (BCCI) released the schedule in two phases to accommodate the assembly elections occurring across several states. Today, April 12, features a double-header with Lucknow Super Giants facing the Gujarat Titans in the afternoon, followed by a marquee clash between Mumbai Indians and Royal Challengers Bengaluru at the Wankhede Stadium. With major player trades—like Sanju Samson moving to Chennai Super Kings and Ravindra Jadeja joining Rajasthan Royals—the competition is at an all-time high as teams battle for a spot in the playoffs.
+            </p>
+        </section>
+
+        <section>
+            <h2>Establishment of IPL</h2>
+            <p>
+                The Indian Premier League (IPL) was established by the BCCI in 2007, with its inaugural season taking place in 2008. It revolutionized the game by blending world-class cricket with high-energy entertainment, starting with a historic century by Brendon McCullum in the very first match. Over the years, the league has grown from its original eight teams to a ten-team format, seeing the rise of legendary dynasties like the Mumbai Indians and Chennai Super Kings. From its humble beginnings to becoming the second most valuable sports league in the world by 2026, the IPL has consistently introduced innovations like the Decision Review System (DRS), the Impact Player rule, and the latest Powerplay Sub. Today, it remains the ultimate platform where young Indian talent gets to play alongside global superstars, making it a true festival of cricket in India.
+            </p>
+        </section>
+
+        <section>
+            <h2>More Cricket Articles</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Indian Women Cricket</h3>
+                    <p>Read about the Indian Women's Tour of South Africa 2026 and their T20 World Cup preparations.</p>
+                    <a href="Indian woman cricket.html">Read Article &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Nagpur VCA Stadium</h3>
+                    <p>Discover details about Nagpur's Vidarbha Cricket Association Stadium hosting the IPL 2026 Playoffs.</p>
+                    <a href="Nagpur’s VCA Stadium.html">Read Article &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Record Broken</h3>
+                    <p>Check out the fastest fifty of the season scored in just 13 balls during a high-stakes clash.</p>
+                    <a href="Record Broken.html">Read Article &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Cricket Hub | Indian Premier League Coverage
+    </footer>
+
 </body>
 </html>
